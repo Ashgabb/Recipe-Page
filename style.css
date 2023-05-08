@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 10px;
+    padding: 5px;
+}
+header {
+	background-color: #0a7a2f;
+	padding: 20px;
+	text-align: center;
+	color: #dae90a;
+}
+
+h1 {
+	margin: 0;
+	font-size: 48px;
+}
+
+ section {
+	margin-bottom: 20px;
+} 
+
+ul, ol {
+	margin: 0;
+	padding: 0 0 0 40px;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+
+
+
+.float-box::after {
+    content: "";
+    clear: both;
+    
+  }
+
+footer{
+    font-size: 25px;
+    font-weight: 400;
+    height: 75px;
+    background-color: #dae90a;
+}
