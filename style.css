@@ -1,5 +1,5 @@
 
-*{
+/* *{
     box-sizing: border-box;
     overflow: hidden;
     margin: 10px;
@@ -48,3 +48,76 @@ footer{
     height: 75px;
     background-color: #dae90a;
 }
+ */
+
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ header{
+    height: 20vh;
+    margin: 10px;
+    padding: 10px;
+    background-color: #058a22;
+ }
+
+ h1{
+    font-size: 75px;
+    font-weight: 900;
+    text-align: center;
+    color: #d4eb09;
+ }
+
+ section{
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+ }
+
+ .float-box{
+    display: flex;
+    border: #058a22 3px solid;
+ }
+
+ .col{
+    padding: 10px;
+    height: 450px;
+    float: left;
+    width: 50%;
+ }
+
+ .Instructions{
+    margin: 5px;
+    background-color: #058a22;
+    color: #d4eb09;
+    text-align: center;
+ }
+
+ .Instructions h2{
+    color: #eb0909;
+    text-decoration: underline;
+    font-size: 25px;
+ }
+
+ .Instructions li{
+    margin: 10px;
+ }
+
+ img{
+    height: 400px;
+    width: 100%;
+ }
+
+ footer{
+    clear: both;
+    height: 20vh;
+    background-color: #058a22;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #d4eb09;
+ }
